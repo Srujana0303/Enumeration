@@ -33,24 +33,50 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+
+## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/e0fb6b1f-609a-4ad2-ba5a-2f2217c51bfd)
+
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
+## Output:
 
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/19bd5e96-03ef-4f9d-9513-4d20e5ca8749)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/7c70a75b-e13d-4415-a628-2f7c35a08732)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/8d6cd779-0263-4098-b1dc-31052eb9625b)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/3755b63f-9b6d-4b3d-8aaf-38a7a1939675)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
+## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/c94bbb4e-c729-4e7b-9af6-4784eb05d407)
+
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
-#DNS Enumeration
+ ## Output:
+
+![image](https://github.com/Srujana0303/Enumeration/assets/132996836/5d6ce1dd-b1c6-4ce9-80c5-034f5bdd400d)
+
+ #DNS Enumeration
 
 
 ##DNS Recon
@@ -59,12 +85,6 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
-
-
-
-
-
 
 
 ##dnsenum
@@ -96,16 +116,13 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+
   
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-
-## OUTPUT:
 
 
 ## RESULT:
