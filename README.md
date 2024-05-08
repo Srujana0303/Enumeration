@@ -9,17 +9,23 @@ To use Google for gathering information and perform enumeration of targets
 
 ## STEPS:
 
+
 ### Step 1:
 
 Install kali linux either in partition or virtual box or in live mode
+
 
 ### Step 2:
 
 Investigate on the various Google hacking keywords and enumeration tools as follows:
 
 
+
+
 ### Step 3:
 Open terminal and try execute some kali linux commands
+
+
 
 ## Pen Test Tools Categories:  
 
@@ -36,47 +42,91 @@ Following searches for all the sites that is in the domain yahoo.com
 
 ## Output:
 
+
+
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/e0fb6b1f-609a-4ad2-ba5a-2f2217c51bfd)
+
 
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
+
+
+
 ## Output:
+
+
 
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/19bd5e96-03ef-4f9d-9513-4d20e5ca8749)
 
+
+
+
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+
+
 ## Output:
+
+
 
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/7c70a75b-e13d-4415-a628-2f7c35a08732)
 
+
+
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+
+
+
 ## Output:
+
+
 
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/8d6cd779-0263-4098-b1dc-31052eb9625b)
 
+
+
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
+
+
 ## Output:
+
+
 
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/3755b63f-9b6d-4b3d-8aaf-38a7a1939675)
 
+
+
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+
 
 ## Output:
 
+
+
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/c94bbb4e-c729-4e7b-9af6-4784eb05d407)
+
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
+
+
  ## Output:
+
+
 
 ![image](https://github.com/Srujana0303/Enumeration/assets/132996836/5d6ce1dd-b1c6-4ce9-80c5-034f5bdd400d)
 
+
+
  #DNS Enumeration
+
 
 
 ##DNS Recon
@@ -87,8 +137,10 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 
 
+
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+
 
 Get the host’s addresses (A record).
 Get the namservers (threaded).
@@ -100,6 +152,7 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+
 
 
 ##smtp-user-enum
@@ -125,6 +178,9 @@ and issue appropriate commands
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
 
+
 ## RESULT:
+
+
 The Google hacking keywords and enumeration tools were identified and executed successfully
 
