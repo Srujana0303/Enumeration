@@ -1,3 +1,4 @@
+```
 # Enumeration
 Enumeration Techniques
 
@@ -186,7 +187,7 @@ and issue appropriate commands
 
 
   
-```
+
 ## nmap –script smtp-enum-users.nse <hostname>
 
 
