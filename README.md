@@ -129,7 +129,12 @@ cache: This operator allows you to view the cached version of a page. For exampl
 
 
 
+
+
 ##DNS Recon
+
+
+
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -156,6 +161,9 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 
 ##smtp-user-enum
+
+
+
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -165,6 +173,8 @@ select any username in the first column of the above file and check the same
 
 
 #Telnet for smtp enumeration
+
+
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
@@ -174,6 +184,8 @@ and issue appropriate commands
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
+
+
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
